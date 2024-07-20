@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <body class="bg-gray-200">
+    <!-- Centering Container -->
+    <div class="center-container flex items-center justify-center min-h-screen">
+      <!-- facebook login clone using tailwind css -->
+      <div class="flex flex-col items-center">
+        <div class="leftbox mb-8">
+          <img
+            class="w-52"
+            src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg"
+            alt="Facebook Logo"
+          />
+        </div>
+        <div
+          class="rightbox text-center bg-white flex flex-col p-3 h-72 w-80 border border-gray-300 rounded-lg shadow-lg"
+        >
+          <h3 class="font-serif">Log in to Facebook</h3>
+          <input
+            class="p-3 m-3 border border-gray-300 rounded-lg"
+            type="text"
+            placeholder="Email address and phone number"
+          />
+          <!-- Password Input with Placeholder Styling -->
+          <input
+            class="p-3 m-3 border border-gray-300 rounded-lg placeholder-gray-500 placeholder-opacity-75"
+            type="password"
+            placeholder="Password"
+          />
+          <!-- Log In Button -->
+          <button
+            class="w-64 p-1 m-3 bg-blue-800 text-white rounded-lg hover:bg-blue-600 hover:opacity-95"
+          >
+            log in
+          </button>
+          <button class="text-blue-400 underline" type="button">
+            forget password
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
